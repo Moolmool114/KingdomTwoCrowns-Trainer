@@ -1,0 +1,8 @@
+{
+  "version": "2.6.0",
+  "changelog": "1. 修复实体与建筑血条定位，贴合泥土层，消除水面倒影重叠\n2. 软件全窗口响应式自适应缩放与窗口居中优化\n3. 增加云端动态更新检测与防倒卖维权提示\n4. 独立关于页，操作更清晰易用",
+  "download_url": "https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/latest",
+  "alert_enabled": false,
+  "title": "⚠️ 安全防骗提示",
+  "message": "提醒：本工具为完全免费的单机辅助，如果您是在淘宝/拼多多/闲鱼付费购买的，请立即向平台投诉举报卖家诈骗并申请全额退款！"
+}
