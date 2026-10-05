@@ -18,6 +18,8 @@ This repository distributes compiled player packages and release information. So
 
 - [Download v2.6.0 / 下载 v2.6.0 玩家包](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v2.6.0/KingdomTrainer_v2.6.0_GitHub.zip)
 - [Latest release / 最新发行版](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/latest)
+- [Baidu Netdisk / 百度网盘](https://pan.baidu.com/s/1n6NLje4odhFh29FuWvUnqg?pwd=1976) — Extraction code / 提取码：`1976`
+- [Lanzou / 蓝奏盘](https://wwazv.lanzout.com/iVt8f4ayo23i) — Access password / 提取密码：`ew9t`；ZIP password / 解压密码：`kingdom`
 
 The tool is provided free of charge. Use the official release links above.
 
