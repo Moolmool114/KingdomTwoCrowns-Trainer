@@ -1,6 +1,6 @@
 {
-  "version": "2.6.0",
-  "changelog": "",
+  "version": "2.6.1",
+  "changelog": "修复坐骑无限体力开启失败的问题",
   "download_url": "https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/latest",
   "alert_enabled": false,
   "title": "⚠️ 安全防骗提示",

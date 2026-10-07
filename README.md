@@ -2,7 +2,7 @@
 
 《王国：两位君主》独立辅助工具与像素 HUD
 
-![Version](https://img.shields.io/badge/version-2.6.0-blue.svg)
+![Version](https://img.shields.io/badge/version-2.6.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20x64-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
@@ -16,7 +16,7 @@ This repository distributes compiled player packages and release information. So
 
 ## Download / 下载
 
-- [Download v2.6.0 / 下载 v2.6.0 玩家包](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v2.6.0/KingdomTrainer_v2.6.0_GitHub.zip)
+- [Download v2.6.1 / 下载 v2.6.1 玩家包](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v2.6.1/KingdomTrainer_v2.6.1_GitHub.zip)
 - [Latest release / 最新发行版](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/latest)
 - [Baidu Netdisk / 百度网盘](https://pan.baidu.com/s/1n6NLje4odhFh29FuWvUnqg?pwd=1976) — Extraction code / 提取码：`1976`
 - [Lanzou / 蓝奏盘](https://wwazv.lanzout.com/iVt8f4ayo23i) — Access password / 提取密码：`ew9t`；ZIP password / 解压密码：`kingdom`
@@ -86,3 +86,4 @@ Regular trainer switches apply changes to the running game process. The separate
 See [LICENSE](LICENSE) for the supplied MIT License.
 
 许可条款见随包提供的 [LICENSE](LICENSE)。
+
