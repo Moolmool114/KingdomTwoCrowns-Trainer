@@ -2,7 +2,7 @@
 
 《王国：两位君主》独立辅助工具与像素 HUD
 
-![Version](https://img.shields.io/badge/version-2.6.1-blue.svg)
+![Version](https://img.shields.io/badge/version-2.6.3-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20x64-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
@@ -16,7 +16,7 @@ This repository distributes compiled player packages and release information. So
 
 ## Download / 下载
 
-- [Download v2.6.1 / 下载 v2.6.1 玩家包](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v2.6.1/KingdomTrainer_v2.6.1_GitHub.zip)
+- [Download v2.6.3 / 下载 v2.6.3 玩家包](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v2.6.3/KingdomTrainer_v2.6.3_GitHub.zip)
 - [Latest release / 最新发行版](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/latest)
 - [Baidu Netdisk / 百度网盘](https://pan.baidu.com/s/1n6NLje4odhFh29FuWvUnqg?pwd=1976) — Extraction code / 提取码：`1976`
 - [Lanzou / 蓝奏盘](https://wwazv.lanzout.com/iVt8f4ayo23i) — Access password / 提取密码：`ew9t`；ZIP password / 解压密码：`kingdom`
@@ -24,6 +24,18 @@ This repository distributes compiled player packages and release information. So
 The tool is provided free of charge. Use the official release links above.
 
 本工具免费提供，请通过上方官方发行链接下载。
+
+## 2.6.3 update / 本次更新
+
+- Backports R35 stamina, coin and wall protection into the existing 2.6.1 interface / 向原 2.6.1 界面下放新版耐力、金币免扣和城墙保护
+- Click once for 5 coins or 1 gem; no continuous refill / 单次点击加 5 金币或 1 钻石，不持续补充
+- Native wall repair supports Norselands without direct HP locking / 使用游戏自身城墙修复流程，覆盖北欧城墙，避免直接锁血干扰攻击
+- Coordinates F3/F4 shared wallet entries and clears stale wallet identities during loading / 处理 F3/F4 共用入口恢复，载入地图时清除旧钱袋地址
+- Update checks offer 2.6.3 only to older clients / 仅低于 2.6.3 的客户端会收到本次更新提示
+
+These backported features act on the running game. One-shot grants do not belong to permanent file patches.
+
+本次下放功能作用于运行中的游戏；单次领取资源不属于永久文件补丁。2.6.3 本次发布在 GitHub。
 
 ## Features / 功能
 
@@ -38,7 +50,7 @@ The tool is provided free of charge. Use the official release links above.
 ## Requirements / 运行环境
 
 - Windows 10/11, 64-bit / Windows 10/11 64 位
-- Kingdom Two Crowns, Windows IL2CPP version / 《王国：两位君主》Windows IL2CPP 版本
+- Kingdom Two Crowns 2.4.3, revision 23537, Windows IL2CPP / 《王国：两位君主》2.4.3（23537）Windows IL2CPP 版本
 - No separate Python installation is required / 玩家包无需单独安装 Python
 - Application interface: Simplified Chinese / 软件界面语言：简体中文
 
@@ -46,8 +58,8 @@ The tool is provided free of charge. Use the official release links above.
 
 1. Download the ZIP from Releases and extract all files into one folder.
    在 Releases 下载 ZIP，将全部文件解压到同一个文件夹。
-2. Keep `trainer_core.dll` and `update_config.json` beside `KingdomTrainer.exe`.
-   将 `trainer_core.dll` 和 `update_config.json` 与主程序 `KingdomTrainer.exe` 放在一起。
+2. Keep `trainer_core.dll`, `trainer_features.dll` and `update_config.json` beside `KingdomTrainer.exe`.
+   将两个 DLL 和 `update_config.json` 与主程序 `KingdomTrainer.exe` 放在一起，并先关闭旧修改器。
 3. Run `KingdomTrainer.exe` and launch the game. Either can start first.
    运行主程序并启动游戏，启动顺序不限。
 4. Wait for the trainer to connect, then choose the HUD displays and assists you need.
@@ -63,10 +75,9 @@ Regular trainer switches apply changes to the running game process. The separate
 | --- | --- | --- |
 | F1 | Monarch invulnerability / prevent crown loss | 君主无敌 / 皇冠不落 |
 | F2 | Infinite mount stamina | 坐骑无限体力 |
-| F3 | Spending does not reduce coins or gems | 消费不扣金币与宝石 |
+| F3 | Coin spending and manual drops do not reduce coins | 消费与撒币不扣金币；宝石按实际余额扣除 |
 | F4 | Treat available funds as sufficient | 永久判定金钱充足 |
-| F5 | Keep carried coins at 99 | 随身金币锁定为 99 枚 |
-| F6 | Keep carried gems at 50 | 随身宝石锁定为 50 颗 |
+| F5 / F6 | Unassigned | 已空出；加金币和钻石改为单次按钮 |
 | F7 | Wall protection | 城墙保护 |
 | F8 | Fast construction, upgrades, repairs and tree chopping | 快速建造、升级、修复和砍树 |
 | F9 | Daylight lock | 锁定白天 |
@@ -86,4 +97,5 @@ Regular trainer switches apply changes to the running game process. The separate
 See [LICENSE](LICENSE) for the supplied MIT License.
 
 许可条款见随包提供的 [LICENSE](LICENSE)。
+
 
