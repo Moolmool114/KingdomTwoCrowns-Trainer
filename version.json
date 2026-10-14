@@ -1,7 +1,7 @@
 {
-  "version": "2.6.1",
-  "changelog": "• 修复坐骑无限体力开启问题 (全版本/非Steam版完美兼容)\n• 官方统一解压密码: kingdom (备用网盘见B站置顶)",
-  "download_url": "https://ghfast.top/https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v2.6.1/KingdomTrainer_v2.6.1_GitHub.zip",
+  "version": "2.6.3",
+  "changelog": "• 适配游戏 2.4.3（23537）\n• 下放新版金币免扣、无限耐力及城墙保护\n• 充盈开关改为单次加5金币/加1钻石，空出F5/F6\n• 修正共用入口关闭恢复及切地图钱袋保护",
+  "download_url": "https://ghfast.top/https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v2.6.3/KingdomTrainer_v2.6.3_GitHub.zip",
   "alert_enabled": false,
   "title": "⚠️ 安全防骗提示",
   "message": "提醒：本工具为完全免费开源的单机辅助，如果您是在淘宝/拼多多/闲鱼付费购买的，请立即向平台投诉举报卖家诈骗并申请全额退款！"
