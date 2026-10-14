@@ -16,7 +16,7 @@ This repository distributes compiled player packages and release information. So
 
 ## Download / 下载
 
-- [Download v2.6.3 / 下载 v2.6.3 玩家包](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v2.6.3/KingdomTrainer_v2.6.3_GitHub.zip)
+- [Download v2.6.3 / 下载 v2.6.3 最终玩家包](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v2.6.3/KingdomTrainer_v2.6.3_GitHub_20261014.zip)
 - [Latest release / 最新发行版](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/latest)
 - [Baidu Netdisk / 百度网盘](https://pan.baidu.com/s/1n6NLje4odhFh29FuWvUnqg?pwd=1976) — Extraction code / 提取码：`1976`
 - [Lanzou / 蓝奏盘](https://wwazv.lanzout.com/iVt8f4ayo23i) — Access password / 提取密码：`ew9t`；ZIP password / 解压密码：`kingdom`
@@ -26,6 +26,10 @@ The tool is provided free of charge. Use the official release links above.
 本工具免费提供，请通过上方官方发行链接下载。
 
 ## 2.6.3 update / 本次更新
+
+Please use `KingdomTrainer_v2.6.3_GitHub_20261014.zip`. The early same-version package was replaced; if you downloaded it already, replace it manually with this final package.
+
+请认准带 `20261014` 的最终安装包。早先同版本的初始附件已经替换；若已下载初始包，请手动换成最终包，以获得独立 F2/F3 后台维护和跨地图钱袋更新修复。
 
 - Backports R35 stamina, coin and wall protection into the existing 2.6.1 interface / 向原 2.6.1 界面下放新版耐力、金币免扣和城墙保护
 - Click once for 5 coins or 1 gem; no continuous refill / 单次点击加 5 金币或 1 钻石，不持续补充
