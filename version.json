@@ -1,7 +1,7 @@
 {
-  "version": "2.6.3",
-  "changelog": "• 适配游戏 2.4.3（23537）\n• 下放新版金币免扣、无限耐力及城墙保护\n• 充盈开关改为单次加5金币/加1钻石，空出F5/F6\n• 修正共用入口关闭恢复及切地图钱袋保护",
-  "download_url": "https://ghfast.top/https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v2.6.3/KingdomTrainer_v2.6.3_GitHub_20261014.zip",
+  "version": "3.0.0",
+  "changelog": "• 3.0.0 R49，适配游戏2.4.3\n• 小地图：多样式、缩放、传送、防剧透\n• 完善NPC血条、耐久、分屏HUD与暂停避让\n• 季节血月提示、远程招募与购买\n• 钱袋容量无限、国库互通与资源快捷键\n• 切档保护与记忆、诊断报告与离线反馈\n• R49修复首次引导和切档弹窗展示",
+  "download_url": "https://ghfast.top/https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v3.0.0-R49/KingdomTrainer_v3.0.0_R49_Game2.4.3_20261018.zip",
   "alert_enabled": false,
   "title": "⚠️ 安全防骗提示",
   "message": "提醒：本工具为完全免费开源的单机辅助，如果您是在淘宝/拼多多/闲鱼付费购买的，请立即向平台投诉举报卖家诈骗并申请全额退款！"

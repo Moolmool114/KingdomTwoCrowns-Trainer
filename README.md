@@ -1,105 +1,87 @@
-# Kingdom Two Crowns Trainer and Pixel HUD
+# KingdomTrainer · 王国：两位君主辅助工具
 
-《王国：两位君主》独立辅助工具与像素 HUD
-
-![Version](https://img.shields.io/badge/version-2.6.3-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Windows%20x64-lightgrey.svg)
+![Version](https://img.shields.io/badge/version-3.0.0_R49-blue.svg)
+![Game](https://img.shields.io/badge/game-2.4.3-yellow.svg)
+![Platform](https://img.shields.io/badge/platform-Windows_x64-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-A free standalone Windows trainer for **Kingdom Two Crowns**, with a configurable pixel HUD and optional gameplay assists. The application interface is in Simplified Chinese.
+为《王国：两位君主》提供像素 HUD、岛屿小地图与可选辅助功能。界面为简体中文，免费提供。
 
-一款免费的 Windows 独立辅助工具，提供可自选显示项目的像素 HUD 和按需开启的游戏辅助功能。软件界面为简体中文。
+A free Windows trainer for Kingdom Two Crowns with a pixel HUD, island minimap and optional gameplay assists. The interface is in Simplified Chinese. This repository distributes compiled player packages and release information; source code is not included.
 
-This repository distributes compiled player packages and release information. Source code is not included.
+## 下载
 
-本仓库用于发布编译后的玩家包和版本信息，不提供源代码。
+- **[下载 3.0.0 R49 · 游戏 2.4.3 · 无密码 ZIP](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v3.0.0-R49/KingdomTrainer_v3.0.0_R49_Game2.4.3_20261018.zip)**
+- [R49 更新说明](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/tag/v3.0.0-R49)
+- [GitHub 下载备用入口](https://ghfast.top/https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v3.0.0-R49/KingdomTrainer_v3.0.0_R49_Game2.4.3_20261018.zip)
+- [历史版本](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases) · [2.6.3 最终玩家包](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v2.6.3/KingdomTrainer_v2.6.3_GitHub_20261014.zip)
 
-## Download / 下载
+历史网盘入口：[百度网盘](https://pan.baidu.com/s/1n6NLje4odhFh29FuWvUnqg?pwd=1976)（提取码 `1976`）；[蓝奏盘](https://wwazv.lanzout.com/iVt8f4ayo23i)（访问密码 `ew9t`，旧包解压密码 `kingdom`）。网盘中的文件版本以实际文件名为准，R49 的 GitHub 玩家包无解压密码。
 
-- [Download v2.6.3 / 下载 v2.6.3 最终玩家包](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/download/v2.6.3/KingdomTrainer_v2.6.3_GitHub_20261014.zip)
-- [Latest release / 最新发行版](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/releases/latest)
-- [Baidu Netdisk / 百度网盘](https://pan.baidu.com/s/1n6NLje4odhFh29FuWvUnqg?pwd=1976) — Extraction code / 提取码：`1976`
-- [Lanzou / 蓝奏盘](https://wwazv.lanzout.com/iVt8f4ayo23i) — Access password / 提取密码：`ew9t`；ZIP password / 解压密码：`kingdom`
+## R49 更新
 
-The tool is provided free of charge. Use the official release links above.
+- 切档保护弹窗支持滚动和调整大小，底部操作按钮固定显示。
+- 简化弹窗文字，“关闭此功能”与右上角“记忆”页开关联动。
+- 旧版“不再提醒”设置不会跳过首次 3.0 引导；确认后按所选设置执行。
+- 调整首次引导的文字排版与窗口适配。
 
-本工具免费提供，请通过上方官方发行链接下载。
+R49 保留 R48 的游戏功能，本次修改集中在引导与弹窗。
 
-## 2.6.3 update / 本次更新
+## 主要功能
 
-Please use `KingdomTrainer_v2.6.3_GitHub_20261014.zip`. The early same-version package was replaced; if you downloaded it already, replace it manually with this final package.
+| 区域 | 功能 |
+| --- | --- |
+| 像素 HUD | 子民与敌人血条、Boss 血条、建筑耐久、坐骑耐力、职业人数与国库看板、突袭方向及距离、破墙提醒；支持分项开关、上下分屏和暂停菜单避让 |
+| 岛屿小地图 | 多种样式、五套图标画风、分类筛选、设施等级、前沿城墙耐久、怪物位置、工具和可招募人数统计；缩放、左右浏览、地点组合列表与传送 |
+| 地图显示 | 背景开关、防剧透探索范围、静止后收起与移动展开；实景缩略样式记录已经过的区域 |
+| 时间 | 当天时钟、季节、下个季节倒计时、血月提示 |
+| 基础辅助 | 君主与子民保护、无限体力、城墙保护、快速建造与砍树、暂停昼夜、移动速度调整、伙伴与隐士保护 |
+| 资源与国库 | 免费消费、钱袋容量无限、居民自动存钱与钱袋国库互通、单次加金币或宝石；容量无限按实际收入和消费记账，相关金钱功能互斥 |
+| 招募与商店 | 难民生成加速、营地和居民屋远程招募、远程购买弓/锤/农具/面包、弓箭手不排队；遵守店铺、库存及当前消费模式 |
+| 开发者工坊 | 分类操作、全图地点瞬移、时间与时代调整、环境与战斗工具、功能实际状态显示 |
+| 记忆 | 默认开启切档保护；可选全局或分存档记忆，逐存档控制是否保留功能状态 |
+| 诊断与反馈 | 游戏指纹及兼容性查看、复制报告、运行诊断与日志、问题分类、截图、日志和离线反馈包 |
+| 窗口操作 | 游戏鼠标指针、窗口置顶、透明度、快捷键与游戏内状态提示 |
+| 可选插件模式 | 插件无限耐力与简要状态条；与独立模式分别显示界面，切换需关闭功能并重启游戏 |
 
-请认准带 `20261014` 的最终安装包。早先同版本的初始附件已经替换；若已下载初始包，请手动换成最终包，以获得独立 F2/F3 后台维护和跨地图钱袋更新修复。
+## 运行与安装
 
-- Backports R35 stamina, coin and wall protection into the existing 2.6.1 interface / 向原 2.6.1 界面下放新版耐力、金币免扣和城墙保护
-- Click once for 5 coins or 1 gem; no continuous refill / 单次点击加 5 金币或 1 钻石，不持续补充
-- Native wall repair supports Norselands without direct HP locking / 使用游戏自身城墙修复流程，覆盖北欧城墙，避免直接锁血干扰攻击
-- Coordinates F3/F4 shared wallet entries and clears stale wallet identities during loading / 处理 F3/F4 共用入口恢复，载入地图时清除旧钱袋地址
-- Update checks offer 2.6.3 only to older clients / 仅低于 2.6.3 的客户端会收到本次更新提示
+1. 使用 Windows 10/11 64 位及游戏 **2.4.3（Windows IL2CPP）**。无需另装 Python。
+2. 关闭旧修改器，将 ZIP 中全部文件完整解压到同一文件夹。
+3. 运行 `KingdomTrainer.exe`，启动游戏，等待连接后选择需要的功能。
+4. 保留同目录的 `trainer_core.dll`、`update_config.json` 和其他配套文件。独立模式不需要安装 BepInEx；插件模式通过软件内入口安装组件并重启游戏。
 
-These backported features act on the running game. One-shot grants do not belong to permanent file patches.
+分屏 HUD 支持上下两位玩家的视口。联机修改效果取决于主机权限及同步机制；国库互通限单人使用。开发者工坊建议使用新测试存档。
 
-本次下放功能作用于运行中的游戏；单次领取资源不属于永久文件补丁。2.6.3 本次发布在 GitHub。
+玩家包不含个人设置、存档记录或日志。同一台电脑已有的软件设置会继续保留。
 
-## Features / 功能
+## 主要快捷键（独立模式）
 
-- Citizen professions and health bars, Boss and Greed health bars / 子民职业与血量、Boss 与贪婪小怪血条
-- Wall and portal durability, mount stamina / 城墙与传送门耐久、坐骑耐力
-- Population counts by profession and treasury gold / 各职业人数与国库金币
-- Off-screen Boss direction and distance, wall breach alerts / 屏幕外 Boss 的方向与距离、破墙提醒
-- Individual HUD switches, crowded-display grouping and a hotkey panel / HUD 分项开关、扎堆合并与快捷键看板
-- Optional invulnerability, resource, construction, daylight and movement assists / 按需开启无敌、资源、建造、白昼与移动辅助
-- An update check in the About window / 关于页面中的更新检查
+| 按键 | 功能 |
+| --- | --- |
+| F1 / F2 | 君主保护 / 无限体力 |
+| F3 / F4 | 免费消费 / 子民与出征部队免伤 |
+| F5 / Shift+F5 | 营地招募 / 居民屋招募 |
+| Ctrl+F5 | 难民生成加速 |
+| F6 / Shift+F6 / Alt+F6 | 买弓 / 买锤 / 买农具 |
+| Ctrl+Shift+F6 / Ctrl+F6 | 买面包 / 弓箭手不排队 |
+| F7 / F8 | 城墙保护 / 快速建造与砍树 |
+| Ctrl+F7 / Ctrl+F8 | 加 5 枚金币 / 加 1 颗宝石 |
+| F9 | 暂停/恢复昼夜交替 |
+| F10 / Ctrl+F10 | 国库互通 / 钱袋容量无限 |
+| F11 / F12 | HUD / 快捷键看板 |
+| Alt+1～9 / Ctrl+1～9 | 君主 / NPC 移动速度预设 |
+| + / - | 地图放大 / 缩小 |
+| , / . | 放大地图时左右浏览 |
+| Alt+F9 | 智能自检与故障排查 |
 
-## Requirements / 运行环境
+## 反馈与版本信息
 
-- Windows 10/11, 64-bit / Windows 10/11 64 位
-- Kingdom Two Crowns 2.4.3, revision 23537, Windows IL2CPP / 《王国：两位君主》2.4.3（23537）Windows IL2CPP 版本
-- No separate Python installation is required / 玩家包无需单独安装 Python
-- Application interface: Simplified Chinese / 软件界面语言：简体中文
+软件“关于”页提供免 GitHub 账号的网页反馈入口及离线反馈包；也可以使用本仓库 [Issues](https://github.com/Moolmool114/KingdomTwoCrowns-Trainer/issues)（需要 GitHub 账号）。
 
-## Installation / 安装与使用
+- [更新检测文件](https://raw.githubusercontent.com/Moolmool114/KingdomTwoCrowns-Trainer/main/version.json)
+- [jsDelivr 备用入口](https://cdn.jsdelivr.net/gh/Moolmool114/KingdomTwoCrowns-Trainer@main/version.json)
 
-1. Download the ZIP from Releases and extract all files into one folder.
-   在 Releases 下载 ZIP，将全部文件解压到同一个文件夹。
-2. Keep `trainer_core.dll`, `trainer_features.dll` and `update_config.json` beside `KingdomTrainer.exe`.
-   将两个 DLL 和 `update_config.json` 与主程序 `KingdomTrainer.exe` 放在一起，并先关闭旧修改器。
-3. Run `KingdomTrainer.exe` and launch the game. Either can start first.
-   运行主程序并启动游戏，启动顺序不限。
-4. Wait for the trainer to connect, then choose the HUD displays and assists you need.
-   等待工具显示已连接游戏，再选择需要的 HUD 项目和辅助功能。
+R49 ZIP 的 SHA-256：`40afe2e5755387f48a09b27e98b86de4c57b4d07c385ce13fed614a120189c24`。
 
-Regular trainer switches apply changes to the running game process. The separate permanent-patch option writes selected changes to `GameAssembly.dll`.
-
-常规辅助开关作用于运行中的游戏进程。另有独立的永久补丁选项，会把所选修改写入 `GameAssembly.dll`。
-
-## Hotkeys / 快捷键
-
-| Key / 按键 | English | 中文 |
-| --- | --- | --- |
-| F1 | Monarch invulnerability / prevent crown loss | 君主无敌 / 皇冠不落 |
-| F2 | Infinite mount stamina | 坐骑无限体力 |
-| F3 | Coin spending and manual drops do not reduce coins | 消费与撒币不扣金币；宝石按实际余额扣除 |
-| F4 | Treat available funds as sufficient | 永久判定金钱充足 |
-| F5 / F6 | Unassigned | 已空出；加金币和钻石改为单次按钮 |
-| F7 | Wall protection | 城墙保护 |
-| F8 | Fast construction, upgrades, repairs and tree chopping | 快速建造、升级、修复和砍树 |
-| F9 | Daylight lock | 锁定白天 |
-| F10 | Enable the game's built-in developer menu | 开启游戏内置开发者菜单 |
-| F11 | Show or hide the HUD | 显示或隐藏 HUD |
-| F12 | Show or hide the hotkey panel | 显示或隐藏快捷键看板 |
-| Alt + 1–4 | Monarch speed: 1.0x / 1.5x / 2.0x / 3.0x | 君主移动速度：1.0 / 1.5 / 2.0 / 3.0 倍 |
-| Ctrl + 1–4 | NPC speed: 1.0x / 1.5x / 2.0x / 3.0x | NPC 移动速度：1.0 / 1.5 / 2.0 / 3.0 倍 |
-
-## Version information / 版本信息
-
-- [version.json](https://raw.githubusercontent.com/Moolmool114/KingdomTwoCrowns-Trainer/main/version.json)
-- [jsDelivr mirror / jsDelivr 镜像](https://cdn.jsdelivr.net/gh/Moolmool114/KingdomTwoCrowns-Trainer@main/version.json)
-
-## License / 许可
-
-See [LICENSE](LICENSE) for the supplied MIT License.
-
-许可条款见随包提供的 [LICENSE](LICENSE)。
-
-
+许可条款见 [LICENSE](LICENSE)。
