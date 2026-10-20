@@ -301,8 +301,6 @@ R49 ZIP SHA-256: `40afe2e5755387f48a09b27e98b86de4c57b4d07c385ce13fed614a120189c
 
 [返回顶部 / Back to top](#top) · [中文说明](#chinese) · [English](#english)
 
-<a id="english"></a>
-
 ## English
 
 [Download](#en-download) · [Installation](#en-install) · [Island map](#en-map) · [Clock and HUD](#en-hud) · [Purse and treasury](#en-economy) · [Developer Workshop](#en-workshop) · [Bug reports](#en-feedback) · [Hotkeys](#en-hotkeys) · [Version and licence](#en-version)
